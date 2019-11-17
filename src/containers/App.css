@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.bg-gradientblu {
+  background: #4285F4;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(45deg, #4285F4, #2AAFE8);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(45deg, #4285F4, #2AAFE8);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(45deg, #4285F4, #2AAFE8);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(45deg, #4285F4, #2AAFE8);
+  /* Standard syntax */
+}
+
+.container-header{
+  height: 56px;
+  box-shadow: 0 2px 6px 0 rgba(49,53,59,.12);
+  border: none;
+  position: relative;
+}
+
+.btn-login{
+  color: #42b549;
+  float: right;
+  margin: 0 2%;
+  padding: 0 3%;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border: solid 1.5px #42b549;
+  border-radius: 4px;
+  line-height: 35px;
+  text-decoration: none;
+}
+
+.btn-login:hover{
+  background: #42b549;
+  color: white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.inpt-long-url{
+  border: 1px solid #BFBFBF;
+  border-radius: 0.8vh 0 0 0.8vh;
+  box-shadow: 3px 5px 10px #aaaaaa;
+  padding: 15px 20px;
+  font-size: medium;
+  outline: none;
+  width: 50%;
+}
+
+.btn-long-url{
+  border: none;
+  outline: none;
+  color: white;
+  box-shadow: 3px 5px 8px #aaaaaa;
+  border-radius: 0 0.8vh 0.8vh 0;
+  font-size: medium;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 16px 35px;
+}
+.ShortUrl{
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+}
+
+.btn-short-url{
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 1.3em;
+  font-size: medium;
+  font-weight: bold;
+  height: 8vh;
+  outline: none;
+  width: 100%;
+}
+
+.btn-short-url:hover{
+  box-shadow: 0 8px 16px 10px rgba(0,0,0,0.2);
+}
